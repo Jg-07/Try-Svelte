@@ -5,6 +5,10 @@
     "test": "web-test-runner \"src/**/*.test.js\""
   },
   "dependencies": {
+    "animejs": "^3.2.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.8",
+    "spinkit": "^2.0.1",
     "svelte": "^3.24.0"
   },
   "devDependencies": {

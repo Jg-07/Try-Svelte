@@ -1,0 +1,35 @@
+:root {
+	/* primary colors */
+	--primary-100: #e9e6fe;
+	--primary-200: #beb5fc;
+	--primary-300: #9384fa;
+	--primary-400: #6853f8;
+	--primary-500: #6853f8;
+	--primary-600: #2309dd;
+	--primary-700: #1b07ac;
+	--primary-800: #1b07ac;
+	--primary-900: #0c034a;
+	--primary-1000: #040119;
+	/* secondary colors */
+	--secondary-100: #e8fcf9;
+	--secondary-200: #baf7ec;
+	--secondary-300: #8cf2df;
+	--secondary-400: #5fedd2;
+	--secondary-500: #31e8c5;
+	--secondary-600: #17ceac;
+	--secondary-700: #12a086;
+	--secondary-800: #0d735f;
+	--secondary-900: #084539;
+	--secondary-1000: #031713;
+	/* foreground color */
+	--foreground: white;
+}
+
+body {
+	font-family: "Inter", system-ui, sans-serif;
+	font-size: x-large;
+	background-color: var(--primary-500);
+	color: var(--foreground);
+	margin: auto;
+	max-width: 768px;
+}

@@ -1,6 +1,6 @@
 <script>
-	// your component logic goes here
-	const my_awesome_text = "Something awesome...";
+	import Anime from "./components/Anime.svelte";
 </script>
 
-<h1>Hello {my_awesome_text}</h1>
+<!-- Feel free to edit the `textProp` -->
+<Anime textProp="My Random Text" />
